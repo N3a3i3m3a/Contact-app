@@ -23,10 +23,10 @@ const ContactList = () => {
             </div>
             <div className=' flex flex-col gap-3'>
             <div className=''>
-              <Link to={'/'} className=''><FaEye /></Link>
+              <Link to={'/contacts/details/:contactId'} className=''><FaEye /></Link>
               </div>
               <div className=''>
-              <Link to={'/'} className=''><CiEdit /></Link>
+              <Link to={'/contacts/edit/:contactId'} className=''><CiEdit /></Link>
               </div>
               <div className=''>
               <Link to={'/'} className=''><MdDelete /></Link>
@@ -42,10 +42,10 @@ const ContactList = () => {
              </div>
              <div className=' flex flex-col gap-3'>
              <div className=''>
-              <Link to={'/'} className=''><FaEye /></Link>
+              <Link to={'/contacts/details/:contactId'} className=''><FaEye /></Link>
               </div>
               <div className=''>
-              <Link to={'/'} className=''><CiEdit /></Link>
+              <Link to={'/contacts/edit/:contactId'} className=''><CiEdit /></Link>
               </div>
               <div className=''>
               <Link to={'/'} className=''><MdDelete /></Link>
