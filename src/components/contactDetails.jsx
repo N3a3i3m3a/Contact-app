@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const ContactDetails = () => {
   return (
-    <div>contactDetails</div>
+    <Fragment>
+      <section>
+        <h2>View contact</h2>
+        
+      </section>
+    </Fragment>
   )
 }
 
