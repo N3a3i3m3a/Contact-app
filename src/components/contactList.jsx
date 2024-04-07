@@ -21,6 +21,7 @@ const ContactList = () => {
              <h3>Phone: 07866666666</h3>
              <h3>Email: dana@gmail.com</h3>
             </div>
+            <div className=' flex flex-col gap-3'>
             <div className=''>
               <Link to={'/'} className=''><FaEye /></Link>
               </div>
@@ -30,6 +31,7 @@ const ContactList = () => {
               <div className=''>
               <Link to={'/'} className=''><MdDelete /></Link>
               </div>
+            </div>  
               
          </div>
          <div className='bg-gray-400 py-7 mb-3 flex flex-row justify-between'>
@@ -38,6 +40,7 @@ const ContactList = () => {
               <h3>Phone: 0787777777777</h3>
               <h3>Eail: ritha@gmail.com</h3>
              </div>
+             <div className=' flex flex-col gap-3'>
              <div className=''>
               <Link to={'/'} className=''><FaEye /></Link>
               </div>
@@ -47,6 +50,7 @@ const ContactList = () => {
               <div className=''>
               <Link to={'/'} className=''><MdDelete /></Link>
               </div>
+              </div>
          </div>
          <div className='bg-gray-400 py-7 mb-3 flex flex-row justify-between'>
           <div className=''>
@@ -54,6 +58,7 @@ const ContactList = () => {
            <h3>Phone: 0788888888</h3>
            <h3>Email: naima@gmail.com </h3>
            </div>
+           <div className=' flex flex-col gap-3'>
            <div className=''>
               <Link to={'/contacts/details/:contactId'} className=''><FaEye /></Link>
               </div>
@@ -62,6 +67,7 @@ const ContactList = () => {
               </div>
               <div className=''>
               <Link to={'/'} className=''><MdDelete /></Link>
+              </div>
               </div>
          </div>
       </section>
