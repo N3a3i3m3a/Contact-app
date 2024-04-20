@@ -134,14 +134,14 @@ const Add = () => {
                     disabled={loading}
                     className="inline-block rounded-lg bg-black px-5 py-3 text-sm font-medium text-white"
                   >
-                    {loading && "loading...🐥"}
+                    {loading && "loading"}
                     {!loading && "Add contact"}
                   </button>
                 </div>
               </form>
 
               <ResponseMessage type={message.type} content={message.content} />
-              {/* ==========================================================================  */}
+              
             </div>
           </div>
         </div>
