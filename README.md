@@ -1,2 +1,2 @@
-# Contact-app
-Simple contact application repository
+# React-contact-app
+Repository for  a simple contact app
